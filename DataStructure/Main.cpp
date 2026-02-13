@@ -1,4 +1,5 @@
 #include "List.h"
+#include "LinkedList.h"
 
 int main(void) {
 
@@ -7,5 +8,13 @@ int main(void) {
 	for (int i = 0; i < 10; ++i)
 		list.Add(i);
 
+
+	LinkedList<int> linkedList;
+
+	linkedList.Insert(10);
+	linkedList.Insert(40);
+	linkedList.Insert(30);
+
+	linkedList.Print();
 	return 0;
 }

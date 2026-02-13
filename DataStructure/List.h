@@ -3,6 +3,9 @@
 #include <iostream>
 #include <cassert>
 
+
+
+
 // 자동으로 크기가 늘어나는 배열 (List/Vector).
 template<typename T>
 class List
